@@ -8,23 +8,23 @@
   </head>
 
   <body>
-    <header>
+    <header class="navigation">
       <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="html.html">HTML</a>
-        <a href="css.html">CSS</a>
-        <a href="js.html">JavaScript</a>
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="html.html">HTML</a>
+        <a class="navigation__link" href="css.html">CSS</a>
+        <a class="navigation__link" href="js.html">JavaScript</a>
       </nav>
     </header>
 
     <main>
-      <img src="logotest.jpg" alt="taki ja" id="top-image" />
+      <img src="logotest.jpg" alt="taki ja"/>
 
-      <header>
+      <header class="heading__style--top">
         <h1>JavaScript</h1>
       </header>
 
-      <section>
+      <section class="articles articles__style--top">
         <h2>Skryptowy nazwowy kuzyn Javy, czyli JavaScript</h2>
         <p>
           Mimo braku korelacji między tymi technologiami (poza nazwą), poniżej
@@ -32,16 +32,16 @@
         </p>
       </section>
 
-      <section>
-        <h2 class="notes-header">Notatki</h2>
-        <article>
-          <h3 class="notes-header">Tydzień III</h3>
+      <section class="articles">
+        <h2 class="heading__style">Notatki</h2>
+        <article class="articles__style">
+          <h3 class="heading__style">Tydzień III</h3>
           W tym tygodniu podstawy podstaw JS-a, więc zbyt wiele napisać nie mogę
           o nim, ale fajnie się zaczyna.
         </article>
 
-        <article>
-          <h3 class="notes-header">Tydzień IV</h3>
+        <article class="articles__style">
+          <h3 class="heading__style">Tydzień IV</h3>
           Typy wartości i immutability, very nice.
         </article>
       </section>
