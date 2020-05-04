@@ -1,0 +1,13 @@
+main {
+    background-color:#fefefe;
+}
+
+.notes-header {
+    font-weight: bold;
+    color: #8d3333;
+}
+
+#top-image {
+    height: 150px;
+    width: 120px;
+}
