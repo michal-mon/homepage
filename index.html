@@ -1,74 +1,78 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-
-    <header>
-        <nav class="navigation">
-            <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
-            <a class="navigation__link" href="html.html">HTML</a>
-            <a class="navigation__link" href="css.html">CSS</a>
-            <a class="navigation__link" href="js.html">JavaScript</a>
-        </nav>
+  <body>
+    <header class="navigation">
+      <nav>
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona główna</a
+        >
+        <a class="navigation__link" href="html.html">HTML</a>
+        <a class="navigation__link" href="css.html">CSS</a>
+        <a class="navigation__link" href="js.html">JavaScript</a>
+      </nav>
     </header>
 
     <main>
+      <img src="logotest.jpg" alt="taki ja" />
 
-        <img src="logotest.jpg" alt="taki ja" id="top-image">
+      <header class="heading__style--top">
+        <h1>Co ten Moń? - strona domowa</h1>
+      </header>
 
-        <header>
-            <h1 class="heading__style">Co ten Moń? - strona domowa</h1>
-        </header>
+      <section class="articles articles__style--top">
+        <h2>Kim jestem?</h2>
+        <p>
+          Lubelski boy, student informatyki, który chciałby tworzyć piękne i
+          funkcjonalne strony internetowe.
+        </p>
+      </section>
 
-        <section class="articles articles__style--top">
-            <h2>Kim jestem?</h2>
-            <p>Lubelski boy, student informatyki, który chciałby tworzyć piękne i funkcjonalne strony internetowe.
-            </p>
-        </section>
+      <section class="articles">
+        <h2 class="heading__style">Notatki ze szkolenia WTF</h2>
+        <article class="articles__style">
+          <h3 class="heading__style">Tydzień I</h3>
+          Zaczęło się dość lajtowo, praktycznie sama konfiguracja środowiska
+          etc., ale kilka pro-tipów po drodze też wpadło, np.: otwieranie VSC w
+          terminalu albo spoko validator kodu.
+        </article>
 
-        <section class="articles">
-            <h2 class="heading__style">Notatki ze szkolenia WTF</h2>
-            <article class="articles__style">
-                <h3 class="heading__style">Tydzień I</h3>
-                Zaczęło się dość lajtowo, praktycznie sama konfiguracja środowiska etc., ale kilka pro-tipów po drodze
-                też wpadło, np.: otwieranie VSC w terminalu albo spoko validator kodu.
-            </article>
+        <article class="articles__style">
+          <h3 class="heading__style">Tydzień II</h3>
+          Pierwsze starcie z <a href="html.html">HTML-em</a> i od razu miłe
+          zaskoczenie, ponieważ od razu pojawiły się
+          <b>semantyczne tagi!</b> Pojawiły się też podstawy
+          <a href="css.html">CSS</a>, które znałem już wcześniej.
+        </article>
 
-            <article class="articles__style">
-                <h3 class="heading__style">Tydzień II</h3>
-                Pierwsze starcie z <a href="html.html">HTML-em</a> i od razu miłe zaskoczenie, ponieważ od razu pojawiły
-                się <b>semantyczne tagi!</b> Pojawiły się też podstawy <a href="css.html">CSS</a>, które znałem już
-                wcześniej.
-            </article>
+        <article class="articles__style">
+          <h3 class="heading__style">Tydzień III</h3>
+          W tym tygodniu spooooro fajnych rzeczy m.in.: Kanban,
+          <a href="js.html">JavaScript</a> i troszkę odświeżyłem sobie terminal.
+        </article>
 
-            <article class="articles__style">
-                <h3 class="heading__style">Tydzień III</h3>
-                W tym tygodniu spooooro fajnych rzeczy m.in.: Kanban, <a href="js.html">JavaScript</a> i troszkę odświeżyłem sobie terminal.
-            </article>
+        <article class="articles__style">
+          <h3 class="heading__style">Tydzień IV</h3>
+          Bardzo intensywny tydzień, sporo CSS'ów, GIT, BEM, DOM no i oczywiście
+          trochę więcej JavaScriptu.
+        </article>
+      </section>
 
-            <article class="articles__style">
-                <h3 class="heading__style">Tydzień IV</h3>
-                Bardzo intensywny tydzień, sporo CSS'ów, GIT, BEM, DOM no i oczywiście trochę więcej JavaScriptu.
-            </article>
-        </section>
-
-        <script src="main.js"></script>
-        <br><br>
-        <section>
+      <script src="main.js"></script>
+      <br /><br />
+      <section>
         <a href="#top">Przejdź na górę</a>
-        </section>
+      </section>
 
-            <footer>
-                Wszystkie prawa zastrzeżone.
-            </footer>
+      <footer>
+        Wszystkie prawa zastrzeżone.
+      </footer>
     </main>
-</body>
-
+  </body>
 </html>

@@ -1,17 +1,21 @@
 .navigation{
     background-color: antiquewhite;
     position: sticky;
+    top: 0px;
 }
 
 .navigation__link {
     color: 987284;
+    padding: 10px;
 }
 
 
 .articles{
     border: 5px solid black;
     margin-bottom: 20px;
+    padding: 10px;
     border-radius: 20px;
+    background-color: rgb(242, 239, 247);
 }
 
 .articles__style{
@@ -25,21 +29,26 @@
 }
 
 .heading__style{
-    padding: 10px;
+    color: #07020D;
 }
 
-#top-image {
-  height: 140px;
-  width: 120px;
-  display: inline-block;
+img {
+  height: 150px;
+  width: 130px;
+  display: block;
 }
 
 body{
  width: 1000px;
  margin: auto;
  background-color: #ffffff;
+ 
 }
 
 header{
     display: inline-block;
+}
+
+a{
+    text-decoration: none;
 }
