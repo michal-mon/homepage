@@ -11,11 +11,11 @@
 <body>
 
     <header>
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="html.html">HTML</a>
-            <a href="css.html">CSS</a>
-            <a href="js.html">JavaScript</a>
+        <nav class="navigation">
+            <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+            <a class="navigation__link" href="html.html">HTML</a>
+            <a class="navigation__link" href="css.html">CSS</a>
+            <a class="navigation__link" href="js.html">JavaScript</a>
         </nav>
     </header>
 
@@ -23,38 +23,38 @@
 
         <img src="logotest.jpg" alt="taki ja" id="top-image">
 
-        <header id="top">
-            <h1>Co ten Moń? - strona domowa</h1>
+        <header>
+            <h1 class="heading__style">Co ten Moń? - strona domowa</h1>
         </header>
 
-        <section>
+        <section class="articles articles__style--top">
             <h2>Kim jestem?</h2>
             <p>Lubelski boy, student informatyki, który chciałby tworzyć piękne i funkcjonalne strony internetowe.
             </p>
         </section>
 
-        <section>
-            <h2 class="notes-header">Notatki ze szkolenia WTF</h2>
-            <article>
-                <h3 class="notes-header">Tydzień I</h3>
+        <section class="articles">
+            <h2 class="heading__style">Notatki ze szkolenia WTF</h2>
+            <article class="articles__style">
+                <h3 class="heading__style">Tydzień I</h3>
                 Zaczęło się dość lajtowo, praktycznie sama konfiguracja środowiska etc., ale kilka pro-tipów po drodze
                 też wpadło, np.: otwieranie VSC w terminalu albo spoko validator kodu.
             </article>
 
-            <article>
-                <h3 class="notes-header">Tydzień II</h3>
+            <article class="articles__style">
+                <h3 class="heading__style">Tydzień II</h3>
                 Pierwsze starcie z <a href="html.html">HTML-em</a> i od razu miłe zaskoczenie, ponieważ od razu pojawiły
                 się <b>semantyczne tagi!</b> Pojawiły się też podstawy <a href="css.html">CSS</a>, które znałem już
                 wcześniej.
             </article>
 
-            <article>
-                <h3 class="notes-header">Tydzień III</h3>
+            <article class="articles__style">
+                <h3 class="heading__style">Tydzień III</h3>
                 W tym tygodniu spooooro fajnych rzeczy m.in.: Kanban, <a href="js.html">JavaScript</a> i troszkę odświeżyłem sobie terminal.
             </article>
 
-            <article>
-                <h3 class="notes-header">Tydzień IV</h3>
+            <article class="articles__style">
+                <h3 class="heading__style">Tydzień IV</h3>
                 Bardzo intensywny tydzień, sporo CSS'ów, GIT, BEM, DOM no i oczywiście trochę więcej JavaScriptu.
             </article>
         </section>

@@ -1,13 +1,45 @@
-main {
-  background-color: #fefefe;
+.navigation{
+    background-color: antiquewhite;
+    position: sticky;
 }
 
-.notes-header {
-  font-weight: bold;
-  color: #8d3333;
+.navigation__link {
+    color: 987284;
+}
+
+
+.articles{
+    border: 5px solid black;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.articles__style{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #e65a5a;
+}
+
+.articles__style--top{
+    padding: 10px;
+}
+
+.heading__style{
+    padding: 10px;
 }
 
 #top-image {
-  height: 150px;
+  height: 140px;
   width: 120px;
+  display: inline-block;
+}
+
+body{
+ width: 1000px;
+ margin: auto;
+ background-color: #ffffff;
+}
+
+header{
+    display: inline-block;
 }
