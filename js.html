@@ -9,8 +9,8 @@
   </head>
 
   <body>
-    <header class="navigation">
-      <nav>
+    <header class="header">
+      <nav class="navigation navigation--js">
         <a class="navigation__link navigation__link--homepage" href="index.html"
           >Strona główna</a
         >
@@ -20,16 +20,20 @@
           >JavaScript</a
         >
       </nav>
+      <button class="hamburger hamburger--js">Hamburger</button>
     </header>
+    
 
     <main class="main">
-      <img src="logotest.jpg" alt="taki ja" />
+      
 
       <header class="main__heading">
         <h1 class="main__heading-text">JavaScript</h1>
       </header>
 
       <section class="upper-heading">
+        <img src="logotest.jpg" alt="taki ja" />
+        <div>
         <h2 class="upper-heading__title">
           Skryptowy nazwowy kuzyn Javy, czyli JavaScript
         </h2>
@@ -37,6 +41,7 @@
           Mimo braku korelacji między tymi technologiami (poza nazwą), poniżej
           moja walka z tym językiem programowania.
         </p>
+      </div>
       </section>
 
       <section class="articles">
@@ -52,17 +57,19 @@
           Typy wartości i immutability, very nice.
         </article>
 
-        <article class="article__style">
+        <article class="articles__style">
           <h3 class="articles__heading-style">Tydzień V</h3>
           Dużo wiedzy JavaScriptowej, która już chyba układa się w głowie.
         </article>
 
-        <article class="article__style">
+        <article class="articles__style">
           <h3 class="articles__heading-style">Tydzień VI</h3>
           Logika (którą znałem już wcześniej) oraz eventy (których nie znałem
           wcześniej)
         </article>
       </section>
+
+      <script src="main.js"></script>
 
       <footer class="footer">
         Wszystkie prawa zastrzeżone.

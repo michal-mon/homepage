@@ -9,8 +9,8 @@
   </head>
 
   <body>
-    <header class="navigation">
-      <nav>
+    <header class="header">
+      <nav class="navigation navigation--js">
         <a class="navigation__link navigation__link--homepage" href="index.html"
           >Strona główna</a
         >
@@ -20,22 +20,26 @@
           >JavaScript</a
         >
       </nav>
+      <button class="hamburger hamburger--js">Hamburger</button>
     </header>
 
     <main class="main">
-      <img src="logotest.jpg" alt="Zdjęcie Michał Moń" />
+      
 
       <header class="main__heading">
         <h1 class="main__heading-text">CSS</h1>
       </header>
 
       <section class="upper-heading">
+        <img src="logotest.jpg" alt="Zdjęcie Michał Moń" />
+        <div>
         <h2 class="upper-heading__title">
           CSS - czyli kaskadowe arkusze stylowe
         </h2>
         <p class="upper-heading__text">
           Czyli jak nauczyłem się robić ładne rzeczy.
         </p>
+      </div>
       </section>
 
       <section class="articles">
@@ -67,6 +71,8 @@
           Grid nieco mniej.
         </article>
       </section>
+
+      <script src="main.js"></script>
 
       <footer class="footer">
         Wszystkie prawa zastrzeżone.

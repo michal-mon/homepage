@@ -17,3 +17,11 @@ console.log(`Cześć, jestem ${name} i mam ${age} lat, a ta funkcja została wyw
 }
 
 helloWorld(user.nameUser, user.ageUser, user.className);
+
+const hamburger = document.querySelector(".hamburger--js");
+
+hamburger.addEventListener('click', () =>{
+    const nav = document.querySelector('.navigation--js');
+    nav.classList.toggle('navigation--open');
+});
+
