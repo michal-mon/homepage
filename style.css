@@ -71,3 +71,8 @@ background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, F
 a {
   text-decoration: none;
 }
+
+.articles__form-item{
+  display: block;
+  margin: 10px 0;
+}
