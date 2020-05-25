@@ -29,10 +29,10 @@
       color: black;
       border-right: 1px solid #07020d;
       padding: 0px 10px;
-      &__--homepage{
+      &--homepage{
         color: red;
       }
-      &__--end{
+      &--end{
           border: 0px;
       }
     }
@@ -92,7 +92,6 @@
     .hamburger{
       display: none;
     }
-    
   }
   
   @media screen and (max-width: 599px){
@@ -125,10 +124,18 @@
 
     .navigation{
       display: none;
-    }
-    
-    .navigation--open{
-      display: block;
+      &--open{
+        display: block;
+      }
+      &__link{
+        color: black;
+        padding: 10px;
+        border: 1px solid black;
+        display:block;
+        &--homepage{
+          color: red;
+        }
+      }
     }
   
     .hamburger{
@@ -136,17 +143,6 @@
       top: 16px; 
       right: 16px;
       
-    }
-  
-    .navigation__link {
-      color: black;
-      padding: 10px;
-      border: 1px solid black;
-      display:block;
-    }
-    
-    .navigation__link--homepage {
-      color: red;
     }
     
     .main{
@@ -172,16 +168,18 @@
       padding: 10px;
       border-radius: 20px;
       background-color: rgb(242, 239, 247);
+      &__style{
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid #e65a5a;
+      }
+      &__form-item{
+        display: block;
+        margin: 10px 0;
+      }
     }
-    
-    .articles__style {
-      padding: 10px;
-      margin: 10px;
-      border: 2px solid #e65a5a;
-    }
-    
-    
-    
+
+      
     .upper-heading__title {
       color: #07020d;
     }
@@ -191,11 +189,6 @@
       width: 130px;
       display: block;
       padding: 16px;
-    }
-  
-    .articles__form-item{
-      display: block;
-      margin: 10px 0;
     }
   }
   
